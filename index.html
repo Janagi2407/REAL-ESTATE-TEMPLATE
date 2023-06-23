@@ -1,0 +1,1247 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REAL-ESTATE TEMPLATE</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <a class="navbar-brand logo" href="#">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+
+                <button class="navbar-toggler menubar-icon" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto main-menu">
+                        <li class="nav-item dropdown has-dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownServices"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                home
+                            </a>
+                            <ul class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownServices">
+                                <li><a class="active" href="#">Home One</a></li>
+                                <li><a href="#">Home Two</a></li>
+                                <li><a href="#">Home Three</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown has-dropdown">
+                            <a class="nav-link dropdown-toggle" href="#property" id="navbarDropdownServices"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                property
+                            </a>
+                            <ul class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownServices">
+                                <li><a href="#property">Property</a></li>
+                                <li><a href="#">Property Sidebar</a></li>
+                                <li><a href="#">Property Single</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown has-dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                services
+                            </a>
+                            <ul class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownServices">
+                                <li><a href="#services">Service</a></li>
+                                <li><a href="#findproperty">Service Details</a></li>
+                                <li><a href="#propertymanagement">Property Management</a></li>
+                                <li><a href="#">Home Selling</a></li>
+                                <li><a href="#">Home Buying</a></li>
+                                <li><a href="#">Consulting Service</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown has-dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                blog
+                            </a>
+                            <ul class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownServices">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Blog Details</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown has-dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                pages
+                            </a>
+                            <ul class="dropdown-menu sub-menu" aria-labelledby="navbarDropdownServices">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#team">Team</a></li>
+                                <li><a href="#">Team Details</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Cart</a></li>
+                                <li><a href="#">Checkout</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar-nav ms-auto">
+                        <button class="search-toggle">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <div class="search-popup">
+                            <button class="close-search"><i class="fas fa-times"></i></button>
+                            <form method="post" action="#">
+                                <div class="form-group">
+                                    <input type="search" class="form-control" name="search-field" value=""
+                                        placeholder="Search Here" required="">
+                                    <button type="submit" class="submit-btn">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- User Profile Start -->
+                        <div class="user-profile">
+                            <a href="#" class="user-toggle">
+                                <i class="fas fa-user"></i>
+                            </a>
+                            <div class="user-dropdown-menu">
+                                <a href="#">
+                                    <i class="fas fa-user"></i>
+                                    <div class="text">
+                                        <p>Login</p>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-edit"></i>
+                                    <div class="text">
+                                        <p>Register</p>
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <div class="text">
+                                        <p>Log Out</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- User Profile End -->
+
+                        <!-- Header Cart Start -->
+                        <div class="header-cart">
+                            <a href="#" class="cart-toggle">
+                                <i class="fas fa-cart-shopping"></i>
+                                <span class="count">4</span>
+                            </a>
+                        </div>
+                        <!-- Header Cart End -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Section Start -->
+    <section class="banner" id="home">
+        <div class="container">
+            <div class="row banner-content">
+                <div class="col-sm-12 col-md-7">
+                    <div class="hero-text">
+                        <h6>
+                            <i class="fa fa-home"></i>
+                            Real Estate Agency
+                        </h6>
+                        <h1>Find Best Your <br><span class="banner-span">Properties</span> in one place</h1>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore</p>
+                        <div class="hero-btn">
+                            <a href="#" class="btn view-btn">View Properties</a>
+                            <div class="banner-video-btn">
+                                <a data-fancybox="" data-width="640" data-height="360" data-small-btn="true"
+                                    class="h-video-btn" href="https://www.youtube.com/watch?v=rl03hrMjP0k"><i
+                                        class="fa fa-play"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="banner-image">
+                        <img src="images/banner-bg-png.png" alt="banner" class="animate-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Appointment form section start -->
+    <section class="appointment-area" id="findproperty">
+        <div class="container">
+            <div class="row appoinment-box">
+                <form action="#" class="form-group">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="select-box">
+                            <div class="options-container">
+                                <option value="Choose Location">choose location</option>
+                                <option value="Bangladesh">bangladesh</option>
+                                <option value="India">india</option>
+                                <option value="London">london</option>
+                                <option value="New Work">new work</option>
+                                <option value="Chicago">chicago</option>
+                            </div>
+
+                            <div class="selected">
+                                choose location
+                                <span class="downarrow"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+
+                            <div class="search-box">
+                                <input type="text" placeholder="Start Typing..." />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="select-box">
+                            <div class="options-container">
+                                <option value="Property Status">property status</option>
+                                <option value="rent">rent</option>
+                                <option value="sale">sale</option>
+                                <option value="sold">sold</option>
+                            </div>
+
+                            <div class="selected">
+                                property status
+                                <span class="downarrow"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+
+                            <div class="search-box">
+                                <input type="text" placeholder="Start Typing..." />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="select-box">
+                            <div class="options-container">
+                                <option value="Choose Location">property type</option>
+                                <option value="Apartment">apartment</option>
+                                <option value="Store">store</option>
+                                <option value="Cafe">cafe</option>
+                                <option value="House">house</option>
+                                <option value="Office">office</option>
+                                <option value="Villa">villa</option>
+                            </div>
+
+                            <div class="selected">
+                                property type
+                                <span class="downarrow"><i class="fas fa-chevron-down"></i></span>
+                            </div>
+
+                            <div class="search-box">
+                                <input type="text" placeholder="Start Typing..." />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="select-box submit-btn">
+                        <button type="submit" class="btn">Find Properties</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Appointment form section end -->
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="section-title text-center">
+                        <h6>Our Services</h6>
+                        <h2>Our Main Focus</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row services-boxs">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-icon-box text-center">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="59.276" height="59.275"
+                                viewBox="0 0 59.276 59.275">
+                                <g id="_004-buy-home" data-name="004-buy-home" transform="translate(0 -0.002)">
+                                    <g id="Group_3574" data-name="Group 3574" transform="translate(21.397 21.001)">
+                                        <g id="Group_3573" data-name="Group 3573">
+                                            <path id="Path_12086" data-name="Path 12086"
+                                                d="M193.379,181.387h-7.4a1.158,1.158,0,0,0-1.158,1.158v6.54a1.158,1.158,0,0,0,1.158,1.158h7.4a1.158,1.158,0,0,0,1.158-1.158v-6.54A1.158,1.158,0,0,0,193.379,181.387Zm-1.158,6.54h-5.086V183.7h5.086Z"
+                                                transform="translate(-184.82 -181.387)" fill="#fff"></path>
+                                        </g>
+                                    </g>
+                                    <g id="Group_3576" data-name="Group 3576" transform="translate(35.053 21.001)">
+                                        <g id="Group_3575" data-name="Group 3575">
+                                            <path id="Path_12087" data-name="Path 12087"
+                                                d="M311.33,181.387h-7.4a1.158,1.158,0,0,0-1.158,1.158v6.54a1.158,1.158,0,0,0,1.158,1.158h7.4a1.158,1.158,0,0,0,1.158-1.158v-6.54A1.158,1.158,0,0,0,311.33,181.387Zm-1.158,6.54h-5.086V183.7h5.086Z"
+                                                transform="translate(-302.771 -181.387)" fill="#fff"></path>
+                                        </g>
+                                    </g>
+                                    <g id="Group_3578" data-name="Group 3578" transform="translate(42.454 31.747)">
+                                        <g id="Group_3577" data-name="Group 3577">
+                                            <path id="Path_12088" data-name="Path 12088"
+                                                d="M368.681,274.544a1.1,1.1,0,0,0-.176-.144,1.149,1.149,0,0,0-.2-.107,1.176,1.176,0,0,0-.216-.067,1.14,1.14,0,0,0-.452,0,1.215,1.215,0,0,0-.218.067,1.18,1.18,0,0,0-.2.107,1.1,1.1,0,0,0-.176.144,1.167,1.167,0,0,0-.339.819,1.14,1.14,0,0,0,.022.226,1.28,1.28,0,0,0,.066.216,1.155,1.155,0,0,0,.106.2,1.184,1.184,0,0,0,.145.176,1.1,1.1,0,0,0,.176.144,1.174,1.174,0,0,0,.2.107,1.206,1.206,0,0,0,.218.066,1.112,1.112,0,0,0,.452,0,1.167,1.167,0,0,0,.217-.066,1.15,1.15,0,0,0,.2-.107,1.113,1.113,0,0,0,.176-.144,1.1,1.1,0,0,0,.143-.176,1.141,1.141,0,0,0,.107-.2,1.17,1.17,0,0,0,.066-.216,1.141,1.141,0,0,0,.023-.226A1.167,1.167,0,0,0,368.681,274.544Z"
+                                                transform="translate(-366.705 -274.204)" fill="#fff"></path>
+                                        </g>
+                                    </g>
+                                    <g id="Group_3580" data-name="Group 3580" transform="translate(0 0.002)">
+                                        <g id="Group_3579" data-name="Group 3579">
+                                            <path id="Path_12089" data-name="Path 12089"
+                                                d="M59.082,45.12c-.024-.077-.049-.153-.076-.225a4.431,4.431,0,0,0-5.678-2.654c-1,.362-2.371.844-3.956,1.363V24.792l.807.753a1.158,1.158,0,0,0,1.578,0l3.7-3.436a1.158,1.158,0,0,0,0-1.7L33.872.313a1.158,1.158,0,0,0-1.578,0L10.71,20.415a1.158,1.158,0,0,0,0,1.7l3.7,3.437a1.158,1.158,0,0,0,1.578,0l.807-.753V37.845c-1.335,1.211-3.094,1.526-5.447,1.564V36.972a1.158,1.158,0,0,0-1.158-1.158H1.158A1.158,1.158,0,0,0,0,36.972V58.119a1.158,1.158,0,0,0,1.158,1.158h9.031a1.158,1.158,0,0,0,1.158-1.158v-3.7h3.811c2.481,0,5,1.091,7.431,2.146,2.381,1.032,4.631,2.007,6.85,2.007h.055c3.123-.149,10.373-1.218,23.835-6.71,1.07-.436,2.165-.894,3.254-1.361h0A4.437,4.437,0,0,0,59.082,45.12ZM9.031,40.565s0,0,0,.007v16.39h-2.2V44.94a1.158,1.158,0,1,0-2.315,0V56.962h-2.2V38.13H9.031v2.435ZM15.2,23.116l-2-1.855L33.083,2.742,52.967,21.261l-2,1.855L33.873,7.157a1.158,1.158,0,0,0-1.58,0ZM39.823,36.584l-.028,0-14.725-1.5h0c-.116-.014-.233-.026-.349-.036l-.085-.007q-.157-.013-.314-.021l-.035,0a10.056,10.056,0,0,0-5.176,1.157V34.063H39.792a1.158,1.158,0,0,0,0-2.315H19.109V22.63L33.083,9.588,47.057,22.63v21.7c-4.026,1.23-9.2,2.575-13.016,2.742l-.043,0-.3.01-.079,0c-.115,0-.228,0-.34,0a2.36,2.36,0,0,1-2.327-2.16h6.226a5.681,5.681,0,0,0,4.736-2.481q.1-.154.2-.316c.022-.039.042-.08.063-.12a5.492,5.492,0,0,0,.651-2.6C42.822,38.5,42.432,36.915,39.823,36.584ZM55.671,48.367q-.666.286-1.332.565l-.822-1.449A1.158,1.158,0,0,0,51.5,48.626l.68,1.2c-12.924,5.248-19.8,6.283-22.769,6.429-1.734-.009-3.759-.887-5.9-1.816-2.527-1.1-5.391-2.337-8.352-2.337H11.347V41.726c2.409-.031,5.063-.32,7.125-2.276.093-.088.19-.173.287-.257.049-.042.1-.083.15-.123s.115-.094.173-.139.122-.092.184-.136.1-.069.144-.1c.075-.052.151-.1.228-.151l.107-.068q.136-.083.274-.161l.067-.037q.158-.086.319-.165l.029-.014a7.806,7.806,0,0,1,2.719-.75h0q.2-.018.4-.025h.056c.117,0,.234,0,.351,0,.05,0,.1,0,.151.006.087,0,.175.006.262.012.14.01.28.023.42.041l.026,0,9.871,1.008v1.864a1.158,1.158,0,1,0,2.315,0V38.624l2.537.259a4.211,4.211,0,0,1,.445.078c.515.124.515.294.515.459a3.125,3.125,0,0,1-.409,1.57q-.054.094-.114.184a3.092,3.092,0,0,1-.264.34q-.072.08-.148.155a3.425,3.425,0,0,1-2.395.951H29.666a1.158,1.158,0,0,0-1.158,1.174c.048,3.412,1.921,5.617,4.771,5.617.124,0,.251,0,.378,0l.1,0,.337-.011.051,0c6.4-.284,16.012-3.537,19.975-4.972a2.116,2.116,0,0,1,2.716,1.273c.013.036.025.072.035.105A2.123,2.123,0,0,1,55.671,48.367Z"
+                                                transform="translate(0 -0.002)" fill="#fff"></path>
+                                        </g>
+                                    </g>
+                                    <g id="Group_3582" data-name="Group 3582" transform="translate(4.515 39.962)">
+                                        <g id="Group_3581" data-name="Group 3581">
+                                            <path id="Path_12090" data-name="Path 12090"
+                                                d="M41.291,346.1a1.171,1.171,0,0,0-.066-.217,1.146,1.146,0,0,0-.107-.2,1.184,1.184,0,0,0-.145-.176,1.109,1.109,0,0,0-.176-.144,1.173,1.173,0,0,0-.2-.107,1.153,1.153,0,0,0-.669-.066,1.088,1.088,0,0,0-.216.066,1.141,1.141,0,0,0-.2.107,1.125,1.125,0,0,0-.32.319,1.146,1.146,0,0,0-.107.2,1.171,1.171,0,0,0-.066.217,1.112,1.112,0,0,0,0,.452,1.17,1.17,0,0,0,.066.217,1.144,1.144,0,0,0,.107.2,1.126,1.126,0,0,0,.32.32,1.145,1.145,0,0,0,.2.107,1.172,1.172,0,0,0,.216.066,1.141,1.141,0,0,0,.226.023,1.161,1.161,0,0,0,.227-.023,1.228,1.228,0,0,0,.216-.066,1.178,1.178,0,0,0,.2-.107,1.107,1.107,0,0,0,.176-.144,1.184,1.184,0,0,0,.145-.176,1.145,1.145,0,0,0,.107-.2,1.169,1.169,0,0,0,.066-.217,1.169,1.169,0,0,0,0-.452Z"
+                                                transform="translate(-38.998 -345.164)" fill="#fff"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Buy a home</a></h4>
+                            <p>over 1 million+ homes for sale available on the website, we can match you with a house
+                                you will want to call home.</p>
+                            <div class="button">
+                                <a href="#" class="btn">Find A Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-icon-box text-center">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                                <g id="_005-key" data-name="005-key" transform="translate(0 0)">
+                                    <path id="Path_12091" data-name="Path 12091"
+                                        d="M41.25,451.992a1.25,1.25,0,0,0-1.25,1.25h0a1.25,1.25,0,1,0,1.25-1.251Zm0,0"
+                                        transform="translate(-35 -395.493)" fill="#fd5a3d"></path>
+                                    <path id="Path_12092" data-name="Path 12092"
+                                        d="M108.259,0h-10a1.25,1.25,0,0,0-1.25,1.25v1.3l-1.668-.01h-.008a1.25,1.25,0,0,0-.008,2.5l1.684.01V18.023c-3.273,2.062-6.227.875-9.345-.381-2.055-.828-4.18-1.683-6.3-1.417-.669.084-2.475.346-4.386.624-1.811.263-3.684.535-4.328.616a1.24,1.24,0,0,1-.92-.257,1.276,1.276,0,0,1-.486-.854c-.027-.221-.1-.81,1.466-1.537A62.859,62.859,0,0,1,82.4,11.2a1.25,1.25,0,0,0-.643-2.416,65.426,65.426,0,0,0-10.1,3.76A5.516,5.516,0,0,0,69.291,14.4L56.759,17.819c-1.318.332-1.995-.193-2.188-.8a1.393,1.393,0,0,1,.982-1.729c.981-.374,3.322-1.4,6.285-2.708,3.927-1.728,8.813-3.879,12.709-5.459,4.63-1.878,6.041-2.162,10.782-2.145h0a1.25,1.25,0,0,0,0-2.5c-5.057-.017-6.811.333-11.729,2.328C69.677,6.4,64.772,8.563,60.831,10.3c-2.821,1.242-5.257,2.314-6.174,2.663l-.012,0a3.868,3.868,0,0,0-2.455,4.824c.54,1.679,2.4,3.162,5.193,2.451l.021-.006,11.441-3.12a3.772,3.772,0,0,0,4.114,2.831c.668-.084,2.469-.346,4.375-.622,1.816-.264,3.693-.536,4.338-.617,1.477-.186,3.215.514,5.055,1.255A17.721,17.721,0,0,0,93.3,21.64a9.013,9.013,0,0,0,3.7-.787v.4a1.25,1.25,0,0,0,1.25,1.25h10a1.25,1.25,0,0,0,1.25-1.25v-20A1.25,1.25,0,0,0,108.259,0Zm-1.25,20h-7.5V3.822h0V2.5h7.5Zm0,0"
+                                        transform="translate(-45.509)" fill="#fd5a3d"></path>
+                                    <path id="Path_12093" data-name="Path 12093"
+                                        d="M453.25,42.5a1.25,1.25,0,0,0,1.25-1.25h0a1.25,1.25,0,1,0-1.25,1.251Zm0,0"
+                                        transform="translate(-395.5 -35.004)" fill="#fd5a3d"></path>
+                                    <path id="Path_12094" data-name="Path 12094"
+                                        d="M124.75,203.5a8.744,8.744,0,0,0,7.174-3.75h4.618a1.25,1.25,0,0,0,.884-.366l2.134-2.134h1.465l2.134,2.134a1.25,1.25,0,0,0,.884.366H146a1.25,1.25,0,0,0,.884-.366l3.75-3.75a1.25,1.25,0,0,0,.366-.884V191a1.25,1.25,0,0,0-1.25-1.25H131.924a8.748,8.748,0,1,0-7.175,13.75Zm23.75-11.25v1.982l-3.018,3.018h-.922l-2.134-2.134a1.25,1.25,0,0,0-.884-.366h-2.5a1.25,1.25,0,0,0-.884.366l-2.134,2.134h-2.891a8.727,8.727,0,0,0,0-5Zm-23.75-3.75a6.25,6.25,0,1,1-6.25,6.25A6.257,6.257,0,0,1,124.75,188.5Zm0,0"
+                                        transform="translate(-101.5 -162.75)" fill="#fd5a3d"></path>
+                                    <path id="Path_12095" data-name="Path 12095"
+                                        d="M157.25,248.5a1.25,1.25,0,1,0-1.25-1.251h0A1.25,1.25,0,0,0,157.25,248.5Zm0,0"
+                                        transform="translate(-136.5 -215.247)" fill="#fd5a3d"></path>
+                                    <path id="Path_12096" data-name="Path 12096"
+                                        d="M349.844,22.605h0a1.25,1.25,0,1,0-1.25-1.25A1.25,1.25,0,0,0,349.844,22.605Zm0,0"
+                                        transform="translate(-305.02 -17.593)" fill="#fd5a3d"></path>
+                                    <path id="Path_12097" data-name="Path 12097"
+                                        d="M52.125,334.264l-.021.006-11.441,3.12a3.772,3.772,0,0,0-4.114-2.831c-.668.084-2.469.346-4.375.622-1.816.264-3.693.536-4.338.617-1.477.185-3.215-.514-5.055-1.255-2.918-1.175-6.445-2.595-10.279-.894v-.395A1.25,1.25,0,0,0,11.25,332h-10A1.25,1.25,0,0,0,0,333.254v20a1.25,1.25,0,0,0,1.25,1.25h10a1.25,1.25,0,0,0,1.25-1.25v-1.3l1.668.01h.008a1.25,1.25,0,0,0,.008-2.5l-1.684-.01V336.48c3.273-2.061,6.227-.874,9.345.381,2.055.828,4.181,1.684,6.3,1.417.669-.084,2.475-.346,4.386-.623,1.811-.263,3.684-.535,4.328-.616a1.238,1.238,0,0,1,.92.257,1.274,1.274,0,0,1,.486.854c.027.221.1.81-1.466,1.536A62.807,62.807,0,0,1,27.1,343.3a1.25,1.25,0,0,0,.643,2.416,65.446,65.446,0,0,0,10.1-3.76,5.521,5.521,0,0,0,2.367-1.853l12.532-3.417c1.318-.332,1.995.193,2.188.8a1.393,1.393,0,0,1-.982,1.729c-.98.374-3.323,1.4-6.286,2.709-3.926,1.728-8.812,3.878-12.709,5.459-4.63,1.878-6.044,2.163-10.782,2.145h0a1.25,1.25,0,0,0,0,2.5h.3c4.827,0,6.608-.374,11.427-2.329,3.93-1.594,8.835-3.753,12.776-5.487,2.821-1.242,5.258-2.314,6.174-2.663l.012,0a3.868,3.868,0,0,0,2.455-4.824c-.54-1.678-2.4-3.161-5.193-2.451ZM2.5,352V334.5H10v16.18h0V352Zm0,0"
+                                        transform="translate(0 -290.504)" fill="#fd5a3d"></path>
+                                    <path id="Path_12098" data-name="Path 12098"
+                                        d="M144.657,471.895h0a1.25,1.25,0,1,0,1.251,1.25A1.25,1.25,0,0,0,144.656,471.895Zm0,0"
+                                        transform="translate(-125.48 -412.908)" fill="#fd5a3d"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Rent a home</a></h4>
+                            <p>over 1 million+ homes for sale available on the website, we can match you with a house
+                                you will want to call home.</p>
+                            <div class="button">
+                                <a href="#" class="btn">Find A Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="service-icon-box text-center">
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="62.951" viewBox="0 0 64 62.951">
+                                <g id="_006-residential" data-name="006-residential" transform="translate(-16 -16)">
+                                    <path id="Path_12099" data-name="Path 12099"
+                                        d="M78.951,275.276H69.508V262.9l2.565,1.711a1.05,1.05,0,0,0,1.631-.873v-4.2a1.053,1.053,0,0,0-.467-.873l-2.681-1.786v-5.734a1.049,1.049,0,0,0-1.049-1.049h-4.2a1.049,1.049,0,0,0-1.049,1.049v1.537L57.5,248.173a1.051,1.051,0,0,0-1.165,0l-4.664,3.109v-.138a1.049,1.049,0,0,0-1.049-1.049h-4.2a1.049,1.049,0,0,0-1.049,1.049v1.537l-6.762-4.509a1.051,1.051,0,0,0-1.165,0L21.713,258.665a1.053,1.053,0,0,0-.467.873v4.2a1.05,1.05,0,0,0,1.631.873l2.565-1.711v12.379H17.049A1.049,1.049,0,0,0,16,276.326v3.148a1.049,1.049,0,0,0,1.049,1.049h61.9A1.049,1.049,0,0,0,80,279.473v-3.148A1.049,1.049,0,0,0,78.951,275.276Zm-12.59-23.082h2.1v3.285l-2.1-1.4ZM51.672,253.8l5.246-3.5L71.607,260.1v1.675L57.5,252.37a1.051,1.051,0,0,0-1.165,0l-4.664,3.109Zm2.681,4.86-1.839-1.225,4.4-2.935,10.5,7a1.1,1.1,0,0,0-.009.132v13.639H50.623V262.9l2.565,1.711a1.05,1.05,0,0,0,1.631-.873v-4.2A1.053,1.053,0,0,0,54.353,258.665Zm-6.877-6.471h2.1v3.285l-2.1-1.4Zm-24.131,9.58V260.1l14.689-9.791L52.721,260.1v1.675l-14.106-9.4a1.053,1.053,0,0,0-1.165,0Zm11.541,4.059H29.639a1.049,1.049,0,0,0-1.049,1.049v8.393H27.541V261.637a1.1,1.1,0,0,0-.009-.132l10.5-7,10.5,7a1.1,1.1,0,0,0-.009.132v13.639H35.934v-8.393A1.049,1.049,0,0,0,34.885,265.834Zm-1.049,2.1v7.344H30.689v-7.344ZM77.9,278.424H18.1v-1.049H77.9Z"
+                                        transform="translate(0 -201.572)" fill="#fd5a3d"></path>
+                                    <path id="Path_12100" data-name="Path 12100"
+                                        d="M176,385.049v4.2a1.049,1.049,0,0,0,1.049,1.049h8.393a1.049,1.049,0,0,0,1.049-1.049v-4.2A1.049,1.049,0,0,0,185.443,384h-8.393A1.049,1.049,0,0,0,176,385.049Zm2.1,1.049h6.3v2.1h-6.3Z"
+                                        transform="translate(-139.016 -319.738)" fill="#fd5a3d"></path>
+                                    <path id="Path_12101" data-name="Path 12101"
+                                        d="M163.148,326.3A3.148,3.148,0,1,0,160,323.148,3.148,3.148,0,0,0,163.148,326.3Zm0-4.2a1.049,1.049,0,1,1-1.049,1.049A1.049,1.049,0,0,1,163.148,322.1Z"
+                                        transform="translate(-125.115 -264.131)" fill="#fd5a3d"></path>
+                                    <path id="Path_12102" data-name="Path 12102"
+                                        d="M193.443,40a9.443,9.443,0,1,0,9.443,9.443A9.443,9.443,0,0,0,193.443,40Zm0,16.787a7.344,7.344,0,1,1,7.344-7.344A7.344,7.344,0,0,1,193.443,56.787Z"
+                                        transform="translate(-145.967 -20.852)" fill="#fd5a3d"></path>
+                                    <path id="Path_12103" data-name="Path 12103"
+                                        d="M172.581,16a12.59,12.59,0,0,0-4.2,24.46v3.868a1.049,1.049,0,1,0,2.1,0V41c.345.058.7.1,1.049.131v5.29a1.049,1.049,0,1,0,2.1,0v-5.29c.354-.029.7-.073,1.049-.131v2.274a1.049,1.049,0,0,0,2.1,0V40.46a12.59,12.59,0,0,0-4.2-24.46Zm0,23.082A10.492,10.492,0,1,1,183.073,28.59,10.492,10.492,0,0,1,172.581,39.082Z"
+                                        transform="translate(-125.106)" fill="#fd5a3d"></path>
+                                    <path id="Path_12104" data-name="Path 12104"
+                                        d="M238.277,78.82a2.628,2.628,0,0,1-2.1,2.57v.052a1.049,1.049,0,0,1-2.1,0h-1.049a1.049,1.049,0,0,1,0-2.1h2.623a.525.525,0,1,0,0-1.049H234.6a2.623,2.623,0,0,1-.525-5.193v-.052a1.049,1.049,0,0,1,2.1,0h1.049a1.049,1.049,0,0,1,0,2.1H234.6a.525.525,0,1,0,0,1.049h1.049A2.626,2.626,0,0,1,238.277,78.82Z"
+                                        transform="translate(-187.654 -48.656)" fill="#fd5a3d"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Sell a home</a></h4>
+                            <p>over 1 million+ homes for sale available on the website, we can match you with a house
+                                you will want to call home.</p>
+                            <div class="button">
+                                <a href="#" class="btn">Find A Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services sction end -->
+
+    <!-- property section start -->
+    <section class="propertie-section" id="property">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="section-title text-center">
+                        <h6>Properties</h6>
+                        <h2>Featured Listings</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="property-wrapper">
+                        <div class="image">
+                            <a href="#">
+                                <img src="./images/property-img1.jpeg" alt="feature">
+                            </a>
+                            <div class="key-btn">
+                                <div class="badge">For Rent</div>
+                            </div>
+                            <div class="location-content">
+                                <p>
+                                    <i class="fa fa-location" aria-hidden="true"></i>
+                                    Belmont Gardens, Chicago
+                                </p>
+                                <div class="product-action-btn">
+                                    <ul class="icon3">
+                                        <li>
+                                            <a class="triger" data-toggle="tooltip" data-placement="top" title=""
+                                                data-fancybox="" data-width="640" data-height="360"
+                                                data-small-btn="true" href="https://www.youtube.com/watch?v=vuci_BKRZ7I"
+                                                data-bs-original-title="Quick View">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="triger wishlist-btn" data-toggle="tooltip"
+                                                data-placement="top" title="" data-bs-original-title="Wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="triger" data-toggle="tooltip"
+                                                data-placement="top" title="" data-bs-original-title="Property">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-meta">
+                                <p>$ 349,00/<span>Month</span></p>
+                            </div>
+                            <div class="content">
+                                <h4>
+                                    <a href="#">Real Luxury Family House Villa</a>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore</p>
+                            </div>
+                            <div class="properties-item">
+                                <ul class="icons3">
+                                    <li>
+                                        <div class="quantity-item">4<i class="fas fa-bed"></i></div>
+                                        <p>Bedroom</p>
+                                    </li>
+                                    <li>
+                                        <div class="quantity-item">2<i class="fas fa-bath"></i></div>
+                                        <p>Bathroom</p>
+                                    </li>
+                                    <li>
+                                        <div class="quantity-item">4<i class="fas fa-vector-square"></i></div>
+                                        <p>square Ft</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="property-wrapper">
+                        <div class="image">
+                            <a href="#">
+                                <img src="./images/property-img2.jpeg" alt="feature">
+                            </a>
+                            <div class="key-btn">
+                                <div class="badge">For sell</div>
+                            </div>
+                            <div class="location-content">
+                                <p>
+                                    <i class="fa fa-location" aria-hidden="true"></i>
+                                    Belmont Gardens, Chicago
+                                </p>
+                                <div class="product-action-btn">
+                                    <ul class="icon3">
+                                        <li>
+                                            <a class="triger" data-toggle="tooltip" data-placement="top" title=""
+                                                data-fancybox="" data-width="640" data-height="360"
+                                                data-small-btn="true" href="https://www.youtube.com/watch?v=vuci_BKRZ7I"
+                                                data-bs-original-title="Quick View">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="triger wishlist-btn" data-toggle="tooltip"
+                                                data-placement="top" title="" data-bs-original-title="Wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="triger" data-toggle="tooltip"
+                                                data-placement="top" title="" data-bs-original-title="Property">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-meta">
+                                <p>$ 349,00/<span>Month</span></p>
+                            </div>
+                            <div class="content">
+                                <h4>
+                                    <a href="#">Real Luxury Family House Villa</a>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore</p>
+                            </div>
+                            <div class="properties-item">
+                                <ul class="icons3">
+                                    <li>
+                                        <div class="quantity-item">4<i class="fas fa-bed"></i></div>
+                                        <p>Bedroom</p>
+                                    </li>
+                                    <li>
+                                        <div class="quantity-item">2<i class="fas fa-bath"></i></div>
+                                        <p>Bathroom</p>
+                                    </li>
+                                    <li>
+                                        <div class="quantity-item">4<i class="fas fa-vector-square"></i></div>
+                                        <p>square Ft</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="property-wrapper">
+                        <div class="image">
+                            <a href="#">
+                                <img src="./images/property-img3.jpg" alt="feature">
+                            </a>
+                            <div class="key-btn">
+                                <div class="badge">For Rent</div>
+                            </div>
+                            <div class="location-content">
+                                <p>
+                                    <i class="fa fa-location" aria-hidden="true"></i>
+                                    Belmont Gardens, Chicago
+                                </p>
+                                <div class="product-action-btn">
+                                    <ul class="icon3">
+                                        <li>
+                                            <a class="triger" data-toggle="tooltip" data-placement="top" title=""
+                                                data-fancybox="" data-width="640" data-height="360"
+                                                data-small-btn="true" href="https://www.youtube.com/watch?v=vuci_BKRZ7I"
+                                                data-bs-original-title="Quick View">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="triger wishlist-btn" data-toggle="tooltip"
+                                                data-placement="top" title="" data-bs-original-title="Wishlist">
+                                                <i class="far fa-heart"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="triger" data-toggle="tooltip"
+                                                data-placement="top" title="" data-bs-original-title="Property">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-item">
+                            <div class="property-meta">
+                                <p>$ 349,00/<span>Month</span></p>
+                            </div>
+                            <div class="content">
+                                <h4>
+                                    <a href="#">Real Luxury Family House Villa</a>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                    tempor invidunt ut labore et dolore</p>
+                            </div>
+                            <div class="properties-item">
+                                <ul class="icons3">
+                                    <li>
+                                        <div class="quantity-item">4<i class="fas fa-bed"></i></div>
+                                        <p>Bedroom</p>
+                                    </li>
+                                    <li>
+                                        <div class="quantity-item">2<i class="fas fa-bath"></i></div>
+                                        <p>Bathroom</p>
+                                    </li>
+                                    <li>
+                                        <div class="quantity-item">4<i class="fas fa-vector-square"></i></div>
+                                        <p>square Ft</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- property section end -->
+
+    <!-- our team section start -->
+    <section class="team-section bg-color" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="section-title text-center">
+                        <h6>Our Team</h6>
+                        <h2>Meet Our teams</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 ">
+                    <div class="team-item-box">
+                        <div class="team-avatar">
+                            <img src="./images/team-member-1.jpg" alt="image">
+                        </div>
+                        <div class="content">
+                            <h5><a href="#">Miranda H. Halim</a></h5>
+                            <h6>ceo</h6>
+                            <div class="social-icon">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="team-item-box">
+                        <div class="team-avatar">
+                            <img src="./images/team-member-2.jpg" alt="image">
+                        </div>
+                        <div class="content">
+                            <h5><a href="#">Martin Odegard</a></h5>
+                            <h6>manager</h6>
+                            <div class="social-icon">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="team-item-box">
+                        <div class="team-avatar">
+                            <img src="./images/team-member-3.jpeg" alt="image">
+                        </div>
+                        <div class="content">
+                            <h5><a href="#">Rohila Math</a></h5>
+                            <h6>assitant manager</h6>
+                            <div class="social-icon">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our team section end -->
+
+    <!-- video section start -->
+    <section class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="video-wrapper">
+                        <div class="video-bg round">
+                            <div class="fancy-box">
+                                <figure class="video-box round-os">
+                                    <a class="video-btn" href="https://www.youtube.com/watch?v=rl03hrMjP0k">
+                                        <i class="fas fa-play"></i></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video section end -->
+
+    <!-- place section start -->
+    <section class="place-section" id="propertymanagement">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title text-center">
+                        <div class="sub-title">
+                            <h6>Place</h6>
+                        </div>
+                        <h2>Discover The Neighborhoods</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme" id="carousel1">
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_1.png" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">New York</a></h4>
+                            <div class="property">25 Properties</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_2.png" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Washington D.C.</a></h4>
+                            <div class="property">18 Properties</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_3.png" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Houston</a></h4>
+                            <div class="property">25 Properties</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_4.png" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Los Angeles</a></h4>
+                            <div class="property">18 Properties</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_5.png" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Chicago</a></h4>
+                            <div class="property">18 Properties</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_6.png" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Austin</a></h4>
+                            <div class="property">18 Properties</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_7.png" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Norway</a></h4>
+                            <div class="property">18 Properties</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_8.png" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Sweden</a></h4>
+                            <div class="property">18 Properties</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="place-item">
+                        <div class="image">
+                            <a href="#"><img src="./images/place_9.jpg" alt="place"></a>
+                        </div>
+                        <div class="content">
+                            <h4><a href="#">Italy</a></h4>
+                            <div class="property">18 Properties</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- place section end -->
+
+    <!-- testimonials section start -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto">
+                    <div class="section-title text-center">
+                        <h6>Our Testimonial</h6>
+                        <h2>Clients Feedback</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row owl-carousel owl-theme" id="carousel2">
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img1.png" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img2.png" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img3.png" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img4.jpg" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img5.jpg" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img6.jpg" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img7.jpg" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img8.jpg" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-auto">
+                    <div class="single-testimonial">
+                        <div class="client-info">
+                            <div class="image-box">
+                                <img src="./images/client-img9.jpg" alt="avatar">
+                            </div>
+                            <div class="info-box">
+                                <h5><a href="#">Mark Taylor</a></h5>
+                                <span>Developer</span>
+                            </div>
+                        </div>
+                        <div class="client-discription">
+                            <p>Lorem ipsum dolor amet consetur adipicing elit sed do umod tempor
+                                incididunt enim.</p>
+                            <div class="date">
+                                <p>Sunday, 10 Jan, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- testimonials section end -->
+
+    <!-- newsletter section start -->
+    <section class="newsletter-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="newsletter-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8">
+                                <div class="newsletter-title">
+                                    <h3>Schedule a visit</h3>
+                                    <p>We can help you realize your dream of a new home</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="newsletter-btn">
+                                    <a href="#" class="btn contact-btn">Contact Us <i class="fa fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter section end -->
+
+    <!-- footer section start -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="footer-wrapper">
+                        <div class="footer-widget">
+                            <div class="logo title">
+                                <a href="#"><img src="./images/logo.png" alt="logo"></a>
+                            </div>
+                            <p>
+                                Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+                                auctor, nisi elit consequat hello Aenean world.
+                            </p>
+                            <div class="para-title">
+                                <h6>Follow Us</h6>
+                            </div>
+                            <div class="social-icon">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="footer-wrapper">
+                        <div class="footer-widget">
+                            <div class="widget-title">
+                                <h4>Quick links</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">terms of use</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">careers</a></li>
+                                <li><a href="#">contact support</a></li>
+                                <li><a href="#">meet team</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="footer-wrapper">
+                        <div class="footer-widget">
+                            <div class="widget-title">
+                                <h4>Popular Searches</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">apartment for rent</a></li>
+                                <li><a href="#">apartment for sale</a></li>
+                                <li><a href="#">offices for rent</a></li>
+                                <li><a href="#">offices for sale</a></li>
+                                <li><a href="#">places</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-wrapper">
+                        <div class="footer-widget">
+                            <div class="widget-title">
+                                <h4>Subscribe Us</h4>
+                            </div>
+                            <p>Subscribe to our weekly Newsletter and receive updates via email.</p>
+                            <div class="newsletter-form mt-25">
+                                <form action="#">
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="yourmail@mail.com">
+                                    <button type="submit" class="submit-btn">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-content text-center">
+                            <div class="content">
+                                <p>
+                                    Copyright ©
+                                    <script>
+                                        document.write(new Date().getFullYear());
+                                    </script>
+                                    All rights reserved.
+                                </p>
+                            </div>
+                            <ul class="link">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Disclaimer</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+
+
+    
+    <!-- js file add -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

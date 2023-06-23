@@ -1,0 +1,380 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0;
+
+    }
+
+    .service-icon-box .icon {
+        height: 92px;
+        width: 92px;
+        margin: 0 auto 20px;
+    }
+
+    .service-icon-box .icon svg {
+        width: 46px;
+    }
+
+    .service-icon-box {
+        margin-bottom: 20px;
+    }
+
+    #carousel1 .owl-dots {
+        display: none;
+    }
+
+    #carousel2 .owl-dots {
+        display: none;
+    }
+
+    .newsletter-wrapper {
+        padding: 40px;
+    }
+
+    .newsletter-title {
+        text-align: center;
+    }
+
+    .newsletter-title h3 {
+        font-size: 1.8rem;
+    }
+
+    .contact-btn {
+        margin: 10px 0 0;
+    }
+
+    .services,
+    .propertie-section,
+    .place-section {
+        padding: 85px 0 0;
+    }
+
+    .team-section {
+        padding: 50px 0 60px;
+    }
+
+    .video-section {
+        margin: 0;
+    }
+
+    .services,
+    .propertie-section,
+    .place-section,
+    .newsletter-section,
+    .testimonial-section {
+        padding: 85px 0 0;
+    }
+
+    .footer-widget .social-icon{
+        margin-bottom:30px;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+    .hero-text h6 {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .banner-image {
+        padding: 50px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .appointment-area .appoinment-box {
+        margin: -150px auto 0;
+    }
+
+
+    .appointment-area .appoinment-box {
+        padding: 20px 0px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0;
+
+    }
+
+    .select-box {
+        margin: 0 auto 20px;
+        width: 90%;
+    }
+
+    .submit-btn {
+        text-align: center;
+
+    }
+
+    .services-boxs {
+        display: flex;
+        row-gap: 20px;
+    }
+
+    p {
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+
+    .service-icon-box {
+        padding: 30px;
+    }
+
+    .service-icon-box p {
+        margin: 0;
+    }
+
+    .service-icon-box .icon {
+        height: 86px;
+        width: 86px;
+        margin: 0 auto 20px;
+    }
+
+    .service-icon-box .icon svg {
+        width: 44px;
+    }
+
+    #carousel1 .owl-dots {
+        display: none;
+    }
+
+    #carousel2 .owl-dots {
+        display: none;
+    }
+
+    .newsletter-wrapper {
+        padding: 35px;
+    }
+
+    .newsletter-title {
+        text-align: center;
+    }
+
+    .newsletter-title h3 {
+        font-size: 1.6rem;
+    }
+
+    .contact-btn {
+        margin: 10px 0 0;
+    }
+
+    .footer-bottom .footer-content {
+        display: block;
+    }
+
+    .footer-widget ul li a {
+        font-size: 15px;
+        margin-bottom: 16px;
+
+    }
+
+    .footer-widget .widget-title h4 {
+        margin-bottom: 20px;
+
+    }
+
+    .footer-widget .social-icon {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom .link {
+        margin: 12px 0 0;
+    }
+
+    .team-section {
+        padding: 40px 0 50px;
+    }
+
+    .video-section {
+        margin: 0;
+    }
+
+    .services,
+    .propertie-section,
+    .place-section,
+    .newsletter-section,
+    .testimonial-section {
+        padding: 70px 0 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+    .btn {
+        padding: 12px 26px;
+        font-size: 14px;
+        font-weight: 500 !important;
+        border-radius: 3px;
+    }
+
+    .hero-text h6 {
+        font-size: 18px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+
+    .banner-image {
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        margin-bottom: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+    }
+
+    .appointment-area .appoinment-box {
+        margin: -150px auto 0;
+    }
+
+
+    .appointment-area .appoinment-box {
+        padding: 20px 0px;
+    }
+
+    .form-group {
+        display: block;
+    }
+
+    .select-box {
+        margin-bottom: 20px;
+    }
+
+    .submit-btn {
+        text-align: center;
+
+    }
+
+    .services-boxs {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .property-wrapper .content h4,
+    .service-icon-box h4,
+    .team-item-box .content h5 a {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px !important;
+        line-height: 26px !important;
+    }
+
+    .service-icon-box {
+        background: #fff;
+        border-radius: 8px;
+        padding: 20px 25px;
+        box-shadow: 0px 0px 15px rgba(14, 31, 53, 0.1);
+        transition: 0.3s linear;
+    }
+
+    .service-icon-box p {
+        margin: 0;
+    }
+
+    .service-icon-box .icon {
+        height: 76px;
+        width: 76px;
+        margin: 0 auto 20px;
+    }
+
+    .service-icon-box .icon svg {
+        width: 40px;
+    }
+
+    #carousel1 .owl-dots {
+        display: none;
+    }
+
+    #carousel2 .owl-dots {
+        display: none;
+    }
+
+    .newsletter-wrapper {
+        padding: 35px;
+    }
+
+    .newsletter-title {
+        text-align: center;
+    }
+
+    .newsletter-title h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact-btn {
+        margin: 10px 0 0;
+    }
+
+    .footer-bottom .footer-content {
+        display: block;
+    }
+
+    .footer-bottom .link li {
+        margin-bottom: 8px;
+    }
+
+    .footer-widget ul li a {
+        font-size: 14px;
+        margin-bottom: 10px;
+
+    }
+
+    .footer-widget .widget-title h4 {
+        margin-bottom: 20px;
+
+    }
+
+    .footer-widget .social-icon {
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom .link {
+        margin: 12px 0 0;
+    }
+
+    .services,
+    .propertie-section,
+    .place-section,
+    .newsletter-section,
+    .testimonial-section {
+        padding: 60px 0 0;
+    }
+
+    .team-section {
+        padding: 30px 0 40px;
+    }
+
+    .video-section {
+        margin: 0;
+    }
+}
